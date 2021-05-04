@@ -1,7 +1,7 @@
 # Big-Data-Architecture-and-Governance
 
 ## Project Objective
-1)To clean and validate the data extracted from USCIS website
+1)To clean and validate the data extracted from USCIS website/
 2)Create a data model based on the dataset
 3)Create a database in Neo4j and load the data using Cypher queries
 4)Create a data pipeline for connecting Neo4j to Python
