@@ -1,0 +1,348 @@
+{
+  "nodes": [
+    {
+      "id": "n9",
+      "position": {
+        "x": 727.0986978416879,
+        "y": -727.1279831182542
+      },
+      "caption": "Employer",
+      "labels": [],
+      "properties": {
+        "Employer Name": "John Doe",
+        "": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": 869.6962434993786,
+        "y": -1257.9409508216954
+      },
+      "caption": "Case",
+      "labels": [],
+      "properties": {
+        "Case Number": "A-09"
+      },
+      "style": {}
+    },
+    {
+      "id": "n11",
+      "position": {
+        "x": -389.75264635414214,
+        "y": -1041.2207576161843
+      },
+      "caption": "Decision",
+      "labels": [],
+      "properties": {
+        "Decision Date": "12/30/2020",
+        "Applied Year": "2020"
+      },
+      "style": {}
+    },
+    {
+      "id": "n12",
+      "position": {
+        "x": -173.52989469350075,
+        "y": -544.6392149421263
+      },
+      "caption": "Salary",
+      "labels": [],
+      "properties": {
+        "Range": "90-120K"
+      },
+      "style": {}
+    },
+    {
+      "id": "n13",
+      "position": {
+        "x": -173.52989469350075,
+        "y": -1419.5382401097045
+      },
+      "caption": "Agreement",
+      "labels": [],
+      "properties": {
+        "Name ": "SCA",
+        "Code": "17-2345"
+      },
+      "style": {}
+    },
+    {
+      "id": "n14",
+      "position": {
+        "x": 1886.961119497445,
+        "y": -700.1028308581355
+      },
+      "caption": "City",
+      "labels": [],
+      "properties": {
+        "City Name": "Boston"
+      },
+      "style": {}
+    },
+    {
+      "id": "n15",
+      "position": {
+        "x": 1073.8309800646773,
+        "y": -439.7323763378488
+      },
+      "caption": "Zip Code",
+      "labels": [],
+      "properties": {
+        "Postal Code": "02218"
+      },
+      "style": {}
+    },
+    {
+      "id": "n16",
+      "position": {
+        "x": 416.8665406364756,
+        "y": -346.7142190548618
+      },
+      "caption": "Employer Address",
+      "labels": [],
+      "properties": {
+        "Address": "1 Sephen street"
+      },
+      "style": {}
+    },
+    {
+      "id": "n17",
+      "position": {
+        "x": 1886.961119497445,
+        "y": -1103.5143889884232
+      },
+      "caption": "State",
+      "labels": [],
+      "properties": {
+        "State": "Massachusetts"
+      },
+      "style": {}
+    },
+    {
+      "id": "n18",
+      "position": {
+        "x": 1606.4962345377567,
+        "y": -1351.9208837351384
+      },
+      "caption": "Citizenship",
+      "labels": [],
+      "properties": {
+        "Country Name": "India"
+      },
+      "style": {}
+    },
+    {
+      "id": "n19",
+      "position": {
+        "x": -173.52989469350075,
+        "y": -1707.6553604974947
+      },
+      "caption": "Job Title",
+      "labels": [],
+      "properties": {
+        "Job Title": "Software Engineer",
+        "Level ": "Level-II"
+      },
+      "style": {}
+    },
+    {
+      "id": "n20",
+      "position": {
+        "x": 635.7338417153026,
+        "y": -1707.6553604974947
+      },
+      "caption": "Case Status",
+      "labels": [],
+      "properties": {
+        "Status": "Approved"
+      },
+      "style": {}
+    },
+    {
+      "id": "n21",
+      "position": {
+        "x": 1322.6569130862563,
+        "y": -1707.6553604974947
+      },
+      "caption": "Visa Type",
+      "labels": [],
+      "properties": {
+        "Class of Admission": "F1"
+      },
+      "style": {}
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n10",
+      "fromId": "n10",
+      "toId": "n9",
+      "type": "hired by",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n11",
+      "fromId": "n11",
+      "toId": "n9",
+      "type": "result",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n12",
+      "fromId": "n9",
+      "toId": "n12",
+      "type": "gives",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n13",
+      "fromId": "n12",
+      "toId": "n10",
+      "type": "of ",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n14",
+      "fromId": "n9",
+      "toId": "n13",
+      "type": "has",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n15",
+      "fromId": "n13",
+      "toId": "n10",
+      "type": "with",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n16",
+      "fromId": "n9",
+      "toId": "n14",
+      "type": "located in",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n17",
+      "fromId": "n10",
+      "toId": "n14",
+      "type": "linked to",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n18",
+      "fromId": "n16",
+      "toId": "n15",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n19",
+      "fromId": "n9",
+      "toId": "n16",
+      "type": "located in",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n20",
+      "fromId": "n14",
+      "toId": "n17",
+      "type": "resides in",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n21",
+      "fromId": "n10",
+      "toId": "n18",
+      "type": "citizen of",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n22",
+      "fromId": "n10",
+      "toId": "n19",
+      "type": "works as",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n24",
+      "fromId": "n10",
+      "toId": "n20",
+      "type": "decision",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n25",
+      "fromId": "n10",
+      "toId": "n21",
+      "type": "is",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n26",
+      "fromId": "n9",
+      "toId": "n19",
+      "type": "has role",
+      "properties": {},
+      "style": {}
+    }
+  ],
+  "style": {
+    "node-color": "#4C8EDA",
+    "border-width": 0,
+    "border-color": "#000000",
+    "radius": 75,
+    "node-padding": 5,
+    "outside-position": "auto",
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#ffffff",
+    "caption-font-size": 29,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#848484",
+    "label-border-width": 3,
+    "label-font-size": 20,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "above",
+    "detail-orientation": "parallel",
+    "arrow-width": 3,
+    "arrow-color": "#848484",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "type-color": "#848484",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#848484",
+    "type-border-width": 0,
+    "type-font-size": 36,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-color": "#848484",
+    "property-font-size": 37,
+    "property-font-weight": "normal"
+  }
+}
