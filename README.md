@@ -1,12 +1,12 @@
 # Big-Data-Architecture-and-Governance
 
 ## Project Objective
-1)To clean and validate the data extracted from USCIS website<br>
-2)Create a data model based on the dataset<br>
-3)Create a database in Neo4j and load the data using Cypher queries<br>
-4)Create a data pipeline for connecting Neo4j to Python<br>
-5)Build an interactive dashboard for better insights<br>
-6)Integration and Acceptance testing for data validation<br><br>
+1) To clean and validate the data extracted from USCIS website<br>
+2) Create a data model based on the dataset<br>
+3) Create a database in Neo4j and load the data using Cypher queries<br>
+4) Create a data pipeline for connecting Neo4j to Python<br>
+5) Build an interactive dashboard for better insights<br>
+6) Integration and Acceptance testing for data validation<br><br>
 
 ## Data Overview using Pandas Profiling
 1) This Dataset gives detailed information of around 374K visa applications and its decision.
