@@ -6,7 +6,8 @@
 3) Create a database in Neo4j and load the data using Cypher queries<br>
 4) Create a data pipeline for connecting Neo4j to Python<br>
 5) Build an interactive dashboard for better insights<br>
-6) Integration and Acceptance testing for data validation<br><br>
+6) Extract Metadata from Neo4j database and load it to SQL Server database
+7) Integration and Acceptance testing for data validation<br><br>
 
 ## Data Overview using Pandas Profiling
 1) This Dataset gives detailed information of around 374K visa applications and its decision.
